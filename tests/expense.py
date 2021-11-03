@@ -1,5 +1,4 @@
 import unittest
-from expense import new_expense
 
 class TestExpense(unittest.TestCase):
 
