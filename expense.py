@@ -54,7 +54,7 @@ def add_repartition(infos):
     amount = infos['amount']
     infos['repartition'] = []
     for i in range(len(infos['involved'])):
-        infos['repartition'].append(int(amount)/len(infos['involved']))
+        infos['repartition'].append(float(amount)/len(infos['involved']))
 
 def new_expense(*args): 
     infos = prompt(expense_questions)
